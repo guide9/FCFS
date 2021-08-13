@@ -15,12 +15,12 @@ public class FCFS
 			{
 					if(flag == 0)
 					{
-							System.out.print("Enter Arival Time FOR PID "+ i + " ");
+							System.out.print("Enter Arival Time FOR PID "+ i + " => ");
 							arr[i][j] =in.nextInt();
 							flag++;
 					}else
 					{
-							System.out.print("Enter Burst Time FOR PID "+ i +" ");
+							System.out.print("Enter Burst Time FOR PID "+ i +" => ");
 							arr[i][j] =in.nextInt();						
 							flag--;
 					}
